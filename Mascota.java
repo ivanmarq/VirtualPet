@@ -77,4 +77,9 @@ public class Mascota {
         System.out.println("Peso: " + peso);
         System.out.println("Ánimo: " + animo);
     }
+
+    public void bailar() {
+        System.out.println(this.nombre + " está bailando un mambo! 💃🕺");
+        this.energia -= 10;
+    }
 }

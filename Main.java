@@ -32,6 +32,7 @@ public class Main {
                 mascota.comer();
             } else if (accion == 4) {
                 mascota.duchar();
+                mascota.bailar();
             } else if (accion == 5) {
                 System.out.println("¿Cuántos golpes?");
                 int golpes = sc.nextInt();
@@ -64,4 +65,6 @@ public class Main {
         System.out.println("5. Atacar");
         System.out.println("6. Salir de la aplicación");
     }
+
+
 }
